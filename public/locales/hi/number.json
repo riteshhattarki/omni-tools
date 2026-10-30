@@ -209,6 +209,12 @@
       "title": "संख्या योग कैलकुलेटर क्या है?"
     }
   },
+  "transferTime": {
+    "description": "Estimate how long it will take to transfer a file at a given speed.",
+    "longDescription": "This calculator estimates ideal data transfer time from a file size in megabytes or gigabytes and a transfer speed in megabits or gigabits per second. It assumes decimal SI units and does not account for network overhead, congestion, or protocol efficiency.",
+    "shortDescription": "Estimate file transfer time from size and speed",
+    "title": "Data Transfer Time"
+  },
   "voltageDropInWire": {
     "description": "2 कंडक्टर केबल में राउंड ट्रिप वोल्टेज और बिजली हानि की गणना करता है",
     "longDescription": "यह कैलकुलेटर दो-चालक विद्युत केबल में वोल्टेज ड्रॉप और पावर लॉस का पता लगाने में मदद करता है। यह केबल की लंबाई, तार के गेज (अनुप्रस्थ क्षेत्र), पदार्थ की प्रतिरोधकता और धारा प्रवाह को ध्यान में रखता है। यह उपकरण राउंड-ट्रिप वोल्टेज ड्रॉप, केबल के कुल प्रतिरोध और ऊष्मा के रूप में क्षय होने वाली शक्ति की गणना करता है। यह विशेष रूप से विद्युत इंजीनियरों, इलेक्ट्रीशियनों और शौकिया लोगों के लिए उपयोगी है, जब वे विद्युत प्रणालियों को डिज़ाइन करते हैं ताकि यह सुनिश्चित किया जा सके कि वोल्टेज का स्तर लोड पर स्वीकार्य सीमा के भीतर रहे।",

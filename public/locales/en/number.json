@@ -214,6 +214,12 @@
       "title": "What Is a Number Sum Calculator?"
     }
   },
+  "transferTime": {
+    "description": "Estimate how long it will take to transfer a file at a given speed.",
+    "longDescription": "This calculator estimates ideal data transfer time from a file size in megabytes or gigabytes and a transfer speed in megabits or gigabits per second. It assumes decimal SI units and does not account for network overhead, congestion, or protocol efficiency.",
+    "shortDescription": "Estimate file transfer time from size and speed",
+    "title": "Data Transfer Time"
+  },
   "voltageDropInWire": {
     "description": "Calculates round trip voltage and power loss in a 2 conductor cable",
     "longDescription": "This calculator helps determine the voltage drop and power loss in a two-conductor electrical cable. It takes into account the cable length, wire gauge (cross-sectional area), material resistivity, and current flow. The tool calculates the round-trip voltage drop, total resistance of the cable, and the power dissipated as heat. This is particularly useful for electrical engineers, electricians, and hobbyists when designing electrical systems to ensure voltage levels remain within acceptable limits at the load.",

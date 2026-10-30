@@ -183,6 +183,12 @@
       "title": "Was ist ein Zahlensummenrechner?"
     }
   },
+  "transferTime": {
+    "description": "Estimate how long it will take to transfer a file at a given speed.",
+    "longDescription": "This calculator estimates ideal data transfer time from a file size in megabytes or gigabytes and a transfer speed in megabits or gigabits per second. It assumes decimal SI units and does not account for network overhead, congestion, or protocol efficiency.",
+    "shortDescription": "Estimate file transfer time from size and speed",
+    "title": "Data Transfer Time"
+  },
   "voltageDropInWire": {
     "description": "Berechnet die Rundreisespannung und den Leistungsverlust in einem 2-adrigen Kabel",
     "longDescription": "Dieser Rechner hilft bei der Ermittlung des Spannungsabfalls und der Verlustleistung in einem zweiadrigen Elektrokabel. Er berücksichtigt Kabellänge, Drahtquerschnitt, Materialwiderstand und Stromfluss. Das Tool berechnet den Hin- und Rückspannungsabfall, den Gesamtwiderstand des Kabels und die in Wärme umgewandelte Leistung. Dies ist besonders nützlich für Elektroingenieure, Elektriker und Bastler bei der Konstruktion elektrischer Systeme, um sicherzustellen, dass die Spannungspegel an der Last innerhalb akzeptabler Grenzen bleiben.",

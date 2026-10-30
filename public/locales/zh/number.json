@@ -183,6 +183,12 @@
       "title": "什么是数字总和计算器？"
     }
   },
+  "transferTime": {
+    "description": "Estimate how long it will take to transfer a file at a given speed.",
+    "longDescription": "This calculator estimates ideal data transfer time from a file size in megabytes or gigabytes and a transfer speed in megabits or gigabits per second. It assumes decimal SI units and does not account for network overhead, congestion, or protocol efficiency.",
+    "shortDescription": "Estimate file transfer time from size and speed",
+    "title": "Data Transfer Time"
+  },
   "voltageDropInWire": {
     "description": "计算双芯电缆的往返电压和功率损耗",
     "longDescription": "这款计算器可帮助计算双芯电缆的电压降和功率损耗。它考虑了电缆长度、线规（横截面积）、材料电阻率和电流。该工具可计算往返电压降、电缆总电阻以及以热量形式耗散的功率。这对于电气工程师、电工和业余爱好者在设计电气系统时尤其有用，可确保负载下的电压水平保持在可接受的范围内。",

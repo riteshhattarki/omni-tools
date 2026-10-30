@@ -183,6 +183,12 @@
       "title": "¿Qué es una calculadora de suma de números?"
     }
   },
+  "transferTime": {
+    "description": "Estimate how long it will take to transfer a file at a given speed.",
+    "longDescription": "This calculator estimates ideal data transfer time from a file size in megabytes or gigabytes and a transfer speed in megabits or gigabits per second. It assumes decimal SI units and does not account for network overhead, congestion, or protocol efficiency.",
+    "shortDescription": "Estimate file transfer time from size and speed",
+    "title": "Data Transfer Time"
+  },
   "voltageDropInWire": {
     "description": "Calcula el voltaje de ida y vuelta y la pérdida de potencia en un cable de 2 conductores.",
     "longDescription": "Esta calculadora ayuda a determinar la caída de tensión y la pérdida de potencia en un cable eléctrico de dos conductores. Considera la longitud del cable, el calibre del cable (área de la sección transversal), la resistividad del material y el flujo de corriente. La herramienta calcula la caída de tensión de ida y vuelta, la resistencia total del cable y la potencia disipada en forma de calor. Resulta especialmente útil para ingenieros eléctricos, electricistas y aficionados al diseñar sistemas eléctricos para garantizar que los niveles de tensión se mantengan dentro de los límites aceptables en la carga.",

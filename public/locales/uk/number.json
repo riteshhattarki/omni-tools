@@ -196,6 +196,12 @@
       "title": "Що таке калькулятор суми чисел?"
     }
   },
+  "transferTime": {
+    "description": "Estimate how long it will take to transfer a file at a given speed.",
+    "longDescription": "This calculator estimates ideal data transfer time from a file size in megabytes or gigabytes and a transfer speed in megabits or gigabits per second. It assumes decimal SI units and does not account for network overhead, congestion, or protocol efficiency.",
+    "shortDescription": "Estimate file transfer time from size and speed",
+    "title": "Data Transfer Time"
+  },
   "voltageDropInWire": {
     "description": "Обчислює падіння напруги та втрати потужності у двожильному кабелі",
     "longDescription": "Цей калькулятор допомагає визначити падіння напруги та втрати потужності у двожильному електричному кабелі. Він враховує довжину кабелю, переріз провідника, питомий опір матеріалу та силу струму. Інструмент обчислює падіння напруги по колу, загальний опір кабелю та потужність, що розсіюється у вигляді тепла. Це особливо корисно для електроінженерів, електриків і радіоаматорів при проєктуванні електросистем.",

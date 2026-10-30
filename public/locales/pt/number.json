@@ -183,6 +183,12 @@
       "title": "O que é uma calculadora de soma numérica?"
     }
   },
+  "transferTime": {
+    "description": "Estimate how long it will take to transfer a file at a given speed.",
+    "longDescription": "This calculator estimates ideal data transfer time from a file size in megabytes or gigabytes and a transfer speed in megabits or gigabits per second. It assumes decimal SI units and does not account for network overhead, congestion, or protocol efficiency.",
+    "shortDescription": "Estimate file transfer time from size and speed",
+    "title": "Data Transfer Time"
+  },
   "voltageDropInWire": {
     "description": "Calcula a tensão de ida e volta e a perda de potência em um cabo de 2 condutores",
     "longDescription": "Esta calculadora ajuda a determinar a queda de tensão e a perda de potência em um cabo elétrico de dois condutores. Ela leva em consideração o comprimento do cabo, a bitola do fio (área da seção transversal), a resistividade do material e o fluxo de corrente. A ferramenta calcula a queda de tensão de ida e volta, a resistência total do cabo e a potência dissipada na forma de calor. Isso é particularmente útil para engenheiros elétricos, eletricistas e amadores ao projetar sistemas elétricos para garantir que os níveis de tensão permaneçam dentro dos limites aceitáveis na carga.",

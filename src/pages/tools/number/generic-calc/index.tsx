@@ -8,7 +8,7 @@ import {
   TextField,
   useTheme
 } from '@mui/material';
-import React, { useContext, useState } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import ToolContent from '@components/ToolContent';
 import { ToolComponentProps } from '@tools/defineTool';
 import NumericInputWithUnit from '@components/input/NumericInputWithUnit';
@@ -77,6 +77,7 @@ export default async function makeTool(
     const [extraOutputs, setExtraOutputs] = useState<{
       [key: string]: number;
     }>({});
+    const validationErrorShown = useRef(false);
 
     const updateVarField = (
       name: string,
@@ -500,6 +501,25 @@ export default async function makeTool(
             showSnackBar('Please select a solve for variable', 'error');
             return;
           }
+          const validationError = calcData.validate?.(values.vars);
+          if (validationError) {
+            values.vars[values.outputVariable].value = NaN;
+            if (calcData.extraOutputs !== undefined) {
+              setExtraOutputs((prevState) => {
+                const newState = { ...prevState };
+                for (const extraOutput of calcData.extraOutputs!) {
+                  newState[extraOutput.title] = NaN;
+                }
+                return newState;
+              });
+            }
+            if (!validationErrorShown.current) {
+              showSnackBar(validationError, 'error');
+              validationErrorShown.current = true;
+            }
+            return;
+          }
+          validationErrorShown.current = false;
           let expr: nerdamer.NerdamerExpression | null = null;
 
           for (const variable of calcData.variables) {

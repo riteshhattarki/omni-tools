@@ -183,6 +183,12 @@
       "title": "Qu'est-ce qu'une calculatrice de somme numérique ?"
     }
   },
+  "transferTime": {
+    "description": "Estimate how long it will take to transfer a file at a given speed.",
+    "longDescription": "This calculator estimates ideal data transfer time from a file size in megabytes or gigabytes and a transfer speed in megabits or gigabits per second. It assumes decimal SI units and does not account for network overhead, congestion, or protocol efficiency.",
+    "shortDescription": "Estimate file transfer time from size and speed",
+    "title": "Data Transfer Time"
+  },
   "voltageDropInWire": {
     "description": "Calcule la tension aller-retour et la perte de puissance dans un câble à 2 conducteurs",
     "longDescription": "Ce calculateur permet de déterminer la chute de tension et la perte de puissance dans un câble électrique à deux conducteurs. Il prend en compte la longueur du câble, la section du fil, la résistivité du matériau et le flux de courant. Il calcule la chute de tension aller-retour, la résistance totale du câble et la puissance dissipée sous forme de chaleur. Cet outil est particulièrement utile aux ingénieurs électriciens, aux électriciens et aux bricoleurs pour la conception de systèmes électriques afin de garantir que les niveaux de tension restent dans des limites acceptables sous charge.",
