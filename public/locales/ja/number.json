@@ -183,6 +183,12 @@
       "title": "数値合計計算機とは何ですか?"
     }
   },
+  "transferTime": {
+    "description": "Estimate how long it will take to transfer a file at a given speed.",
+    "longDescription": "This calculator estimates ideal data transfer time from a file size in megabytes or gigabytes and a transfer speed in megabits or gigabits per second. It assumes decimal SI units and does not account for network overhead, congestion, or protocol efficiency.",
+    "shortDescription": "Estimate file transfer time from size and speed",
+    "title": "Data Transfer Time"
+  },
   "voltageDropInWire": {
     "description": "2導体ケーブルの往復電圧と電力損失を計算します",
     "longDescription": "この計算機は、2芯電気ケーブルにおける電圧降下と電力損失を計算するのに役立ちます。ケーブルの長さ、電線ゲージ（断面積）、材質の抵抗率、電流の流れを考慮します。このツールは、往復の電圧降下、ケーブルの総抵抗、そして熱として消費される電力を計算します。これは、電気技術者、電気技師、そして趣味で電気システムを設計する際に、負荷における電圧レベルが許容範囲内に維持されるようにする際に特に役立ちます。",

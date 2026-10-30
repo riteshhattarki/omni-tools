@@ -183,6 +183,12 @@
       "title": "Wat is een getallensomcalculator?"
     }
   },
+  "transferTime": {
+    "description": "Estimate how long it will take to transfer a file at a given speed.",
+    "longDescription": "This calculator estimates ideal data transfer time from a file size in megabytes or gigabytes and a transfer speed in megabits or gigabits per second. It assumes decimal SI units and does not account for network overhead, congestion, or protocol efficiency.",
+    "shortDescription": "Estimate file transfer time from size and speed",
+    "title": "Data Transfer Time"
+  },
   "voltageDropInWire": {
     "description": "Bereken de retourspanning en het vermogensverlies in een 2-aderige kabel",
     "longDescription": "Deze calculator helpt bij het bepalen van de spanningsval en het vermogensverlies in een tweeaderige elektrische kabel. Hierbij wordt rekening gehouden met de kabellengte, de draaddikte (dwarsdoorsnede), de materiaalweerstand en de stroomsterkte. De tool berekent de spanningsval heen en terug, de totale weerstand van de kabel en het vermogen dat als warmte wordt afgegeven. Dit is met name handig voor elektrotechnici, elektriciens en hobbyisten bij het ontwerpen van elektrische systemen om ervoor te zorgen dat de spanningsniveaus bij de belasting binnen acceptabele grenzen blijven.",

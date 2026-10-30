@@ -10,6 +10,9 @@ export interface AlternativeVarInfo {
 
 export interface GenericCalcType extends Omit<ToolMeta, 'component'> {
   formula: string;
+  validate?: (
+    variables: Record<string, { value: number; unit: string }>
+  ) => string | undefined;
   extraOutputs?: {
     title: string;
     formula: string;
